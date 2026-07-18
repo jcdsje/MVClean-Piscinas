@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piscinas MV</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+  <!-- Menu -->
+  <nav class="menu">
+    <button data-pagina="home">Home</button>
+    <button data-pagina="servicos">Serviços</button>
+    <button data-pagina="contatos">Contatos</button>
+    <button onclick="dark()">Alternar</button>
+  </nav>
+<img src="" alt="">
+  <!-- Home -->
+  <section id="home" class="pagina ativa">
+    <h1>Serviço Especializado em Limpeza de Piscinas</h1>
+    <img src="LOGOPISCINASMV.jpeg" alt="Logo MV" class="logo">
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="pagina">
+    <h2>Por que fazer a limpeza preventiva da piscina?</h2>
+    <div class="card-container">
+      <div class="card"><h3>💧 Saúde</h3><p>Evita proliferação de bactérias e fungos.</p></div>
+      <div class="card"><h3>🌞 Estética</h3><p>Garante água cristalina e agradável.</p></div>
+      <div class="card"><h3>⚙️ Durabilidade</h3><p>Previne danos em filtros e bombas.</p></div>
+      <div class="card"><h3>💰 Economia</h3><p>Reduz custos futuros com reparos.</p></div>
+    </div>
+
+    <!-- Carousel abaixo dos cards -->
+    <div class="carousel" id="carousel"></div>
+  </section>
+
+  <!-- Contatos -->
+  <section id="contatos" class="pagina">
+    <h2>Contatos</h2>
+    <div class="user-card">
+      <img src="LOGOPISCINASMV.jpeg" alt="Logo MV" class="logo-contato">
+      <div class="user-info">
+        <h2>Piscinas MV</h2>
+        <p>Entre em contato conosco</p>
+        <div class="social-links">
+          <a href="#https://facebook.com/seuPerfil" class="social-icon facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/mvcleanpiscinas?utm_source=qr&igsh=cmZpYnRja2hwZjVr" class="social-icon instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/5531996091856" class="social-icon whatsapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
